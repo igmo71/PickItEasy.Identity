@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33414.496
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PickItEasy.Identity", "PickItEasy.Identity\PickItEasy.Identity.csproj", "{DE0E3F05-E471-4714-9473-BD0CFE6F574E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE0E3F05-E471-4714-9473-BD0CFE6F574E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE0E3F05-E471-4714-9473-BD0CFE6F574E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE0E3F05-E471-4714-9473-BD0CFE6F574E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE0E3F05-E471-4714-9473-BD0CFE6F574E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1CF0C8BC-35E4-4C0E-A14F-DD3232B7F60A}
+	EndGlobalSection
+EndGlobal
