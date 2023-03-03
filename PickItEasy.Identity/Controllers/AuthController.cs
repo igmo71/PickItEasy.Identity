@@ -72,6 +72,7 @@ namespace PickItEasy.Identity.Controllers
             if (result.Succeeded)
             {
                 await _signInManager.SignInAsync(user, false);
+                return Redirect(registerViewModel.ReturnUrl);
             }
 
             ModelState.AddModelError(string.Empty, "Register error");

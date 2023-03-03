@@ -51,9 +51,11 @@ namespace PickItEasy.Identity
 
             InitializeDb(app);
                         
-            //app.UseRouting();
+            app.UseRouting();
             
-            app.UseIdentityServer(); //https://localhost:32780/.well-known/openid-configuration
+            app.UseIdentityServer();
+            // https://localhost:32768/.well-known/openid-configuration - in Dockr run
+            // https://localhost:7109/.well-known/openid-configuration - in https run
 
             //app.MapGet("/", () => "Hello World!");
             app.MapDefaultControllerRoute();
